@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-family: "inter", 'roboto', 'nanuto';
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carte {
+    background-color:  hsl(0, 0%, 12%);
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 400px;
+}
+.user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.user img {
+    border-radius: 100%;
+    max-width: 90px;
+}
+
+.user .localisation {
+    color:  hsl(75, 94%, 57%);
+    margin-top: -10px;
+}
+p {
+    font-size: 14px;
+}
+.work {
+    font-weight: 400;
+    padding-inline: 20px;
+
+}
+
+.links {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.link__button {
+    width: 100%;
+    height: 40px;
+    background-color:  hsl(0, 0%, 20%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.link__button:active, .link__button:hover, a:hover  {
+    background-color:  hsl(75, 94%, 57%);
+    color: black;
+}
+a {
+    text-decoration: none;
+    font-size: 14px;
+    background: none;
+    width: 100%;
+    height: 100%;
+}
